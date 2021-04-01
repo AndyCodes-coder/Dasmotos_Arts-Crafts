@@ -1,0 +1,26 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url("pattern.webp");
+}
+h1{
+    color:khaki;
+    position: relative;
+    margin: auto;
+    width: 99%;
+    
+}
+.bold{
+    font-weight:bold;
+}
+.italic{
+    font-style:italic;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
