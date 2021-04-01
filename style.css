@@ -1,16 +1,9 @@
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
-header{
-    background-image: url("pattern.webp");
-}
-h1{
-    color:khaki;
-    position: relative;
-    margin: auto;
-    width: 99%;
-    
+.spacer{
+    height: 20px;
 }
 .bold{
     font-weight:bold;
@@ -23,4 +16,120 @@ h1{
 }
 .justify{
     text-align: justify;
+}
+.blue{
+    color: blue;
+}
+.sectionHeader{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+#myHeader{
+    top: 0;
+    background-image: url("pattern.webp");
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+#mainHeading{
+    color:khaki;
+   
+    font-size: 100px;
+    font-weight: bold;
+    align-self: center;
+    background-color: rgb(184, 181, 178);
+    background-color: rgba(184, 181, 178, .6);
+    
+}
+#brushHeader{
+    background-color: mediumspringgreen;
+    grid-area: head;
+    
+}
+#framesHeader{
+    background-color: lightcoral;
+    grid-area: head;
+}
+#paintHeader{
+    background-color: skyblue;
+    grid-area: head;
+}#section1{
+    display:grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:"head head"
+                        "pic text";
+                         
+}
+#section2{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:"head head"
+                        "text pic";
+    
+}
+#section3{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:"head head"
+                        "pic text";
+    
+}
+#s1d{
+    grid-area: text;
+    width: 80%;
+    margin: auto;
+    padding:10px;
+    background-color: white;
+    
+}
+#s2d{
+    grid-area: text;
+    width: 80%;
+    margin: auto;
+    padding:10px;
+    background-color: white;
+    
+}
+#s3d{
+    grid-area: text;
+    width: 80%;
+    margin: auto;
+    padding:10px;
+    background-color: white;
+    
+}
+#hacksaw{
+    grid-area: pic;
+    justify-self: center;
+    display: block;
+    position: relative;
+    border: 5px solid mediumspringgreen;
+    border-radius: 10px;
+    
+}
+#frames{
+    grid-area: pic;
+    justify-self: center;
+    display: block;
+    position: relative;
+    border: 5px solid lightcoral;
+    border-radius: 10px;
+    
+}
+#paints{
+    grid-area: pic;
+    justify-self: center;
+    display: block;
+    position: relative;
+    border: 5px solid skyblue;
+    border-radius: 10px;
+    
 }
